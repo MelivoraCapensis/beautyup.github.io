@@ -62,6 +62,18 @@ Tags: HTML, Template, Coming Soon, Kite
 	background-image: url(images/background/page-top.jpg);
     background-position: 50% 0px;
 }
+#about{
+	background-image: url(images/background/page-top.jpg);
+    background-position: 50% 0px;
+}
+#subscribe{
+	background-image: url(images/background/page-top.jpg);
+    background-position: 50% 0px;
+}
+#contact{
+	background-image: url(images/background/page-top.jpg);
+    background-position: 50% 0px;
+}
 body{
 	font-family:'Roboto', sans-serif;
 	color:#fff;
