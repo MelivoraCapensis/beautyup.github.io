@@ -58,6 +58,10 @@ Tags: HTML, Template, Coming Soon, Kite
 {
 	height:60px;
 }
+.phone{
+	font-size:62px;
+	font-family: "Trebuchet MS";
+}
 #page-top{
 	background-image: url(../../images/background/page-top.jpg);
     background-position: 50% 0px;
@@ -1206,6 +1210,10 @@ background: #00aaff;
 		opacity: 0;
 		transform: scale(1);
 	}
+}
+@media screen and (max-width: 768px)
+.phone {
+    font-size: 40px;
 }
 
 /* 10 - Preloader End

@@ -67,11 +67,11 @@ jQuery(document).ready(function($) {
         // omitWeeks: true
 
          targetOffset: {
-            'day':      0,
+            'day':      5,
             'month':    0,
-            'year':     1,
-            'hour':     0,
-            'min':      0,
+            'year':     0,
+            'hour':     22,
+            'min':      13,
             'sec':      3
 		},
 		omitWeeks: true
