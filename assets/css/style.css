@@ -968,6 +968,9 @@ form.news-letter .btn:hover{
 	.section-title{
 		font-size:40px;
 	}
+	.phone {
+		font-size: 40px;
+	}
 	#contact-form #first_name{
 		border-right:1px solid #fff;
 	}
@@ -1211,10 +1214,7 @@ background: #00aaff;
 		transform: scale(1);
 	}
 }
-@media screen and (max-width: 768px)
-.phone {
-    font-size: 40px;
-}
+
 
 /* 10 - Preloader End
 ---------------------------------------------------------------------- */
