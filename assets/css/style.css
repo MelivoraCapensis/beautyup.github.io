@@ -59,19 +59,19 @@ Tags: HTML, Template, Coming Soon, Kite
 	height:60px;
 }
 #page-top{
-	background-image: url(images/background/page-top.jpg);
+	background-image: url(../../images/background/page-top.jpg);
     background-position: 50% 0px;
 }
 #about{
-	background-image: url(images/background/about-us.jpg);
+	background-image: url(../../images/background/about-us.jpg);
     background-position: 50% 0px;
 }
 #subscribe{
-	background-image: url(images/background/newsletter.jpg);
+	background-image: url(../../images/background/newsletter.jpg);
     background-position: 50% 0px;
 }
 #contact{
-	background-image: url(images/background/contact.jpg);
+	background-image: url(../../images/background/contact.jpg);
     background-position: 50% 0px;
 }
 body{
