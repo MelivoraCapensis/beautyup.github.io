@@ -1011,7 +1011,7 @@ form.news-letter .btn:hover{
 	    width: 345px;
 	}	
 }
-@media screen and (max-width: 667px){
+@media screen and (max-width: 568px){
 	.section-title{
 		font-size:29px;
 	}
