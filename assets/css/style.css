@@ -975,7 +975,12 @@ form.news-letter .btn:hover{
 /* 9.2 - media screen and (max-width: 768px)
 ------------------------------------------------ */
 
-
+	img.logoVertical{
+		display:none;
+	}	
+	img.logo{
+		display:block;
+	}
 
 @media screen and (max-width: 768px){
 	.section-title{
@@ -984,8 +989,12 @@ form.news-letter .btn:hover{
 	.phone {
 		font-size: 40px;
 	}
-	.site-title img{
-	    width: 370px;
+	img.logoVertical{
+		display:block;
+	    width: 345px;
+	}	
+	img.logo{
+		display:none;
 	}
 	#contact-form #first_name{
 		border-right:1px solid #fff;
@@ -1007,9 +1016,13 @@ form.news-letter .btn:hover{
 	.phone {
 		font-size: 40px;
 	}
-	.site-title img{
+	img.logoVertical{
+		display:block;
 	    width: 345px;
 	}	
+	img.logo{
+		display:none;
+	}
 }
 @media screen and (max-width: 568px){
 	.section-title{
@@ -1018,9 +1031,13 @@ form.news-letter .btn:hover{
 	.phone {
 		font-size: 33px;
 	}
-	.site-title img{
+	img.logoVertical{
+		display:block;
 	    width: 295px;
 	}	
+	img.logo{
+		display:none;
+	}
 }
 
 /* 9.2 - media screen and (max-width: 768px) End
