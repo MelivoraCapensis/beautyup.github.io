@@ -1000,6 +1000,28 @@ form.news-letter .btn:hover{
 	border-left:1px solid #fff;
 	}
 }
+@media screen and (max-width: 667px){
+	.section-title{
+		font-size:34px;
+	}
+	.phone {
+		font-size: 40px;
+	}
+	.site-title img{
+	    width: 345px;
+	}	
+}
+@media screen and (max-width: 667px){
+	.section-title{
+		font-size:29px;
+	}
+	.phone {
+		font-size: 33px;
+	}
+	.site-title img{
+	    width: 295px;
+	}	
+}
 
 /* 9.2 - media screen and (max-width: 768px) End
 ------------------------------------------------ */
