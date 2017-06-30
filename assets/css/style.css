@@ -977,9 +977,11 @@ form.news-letter .btn:hover{
 
 	img.logoVertical{
 		display:none;
+		margin: auto;
 	}	
 	img.logo{
 		display:block;
+		margin: auto;
 	}
 
 @media screen and (max-width: 768px){
@@ -987,11 +989,10 @@ form.news-letter .btn:hover{
 		font-size:37px;
 	}
 	.phone {
-		font-size: 40px;
+		font-size: 60px;
 	}
 	img.logoVertical{
 		display:block;
-	    width: 345px;
 	}	
 	img.logo{
 		display:none;
@@ -1009,12 +1010,27 @@ form.news-letter .btn:hover{
 	border-left:1px solid #fff;
 	}
 }
-@media screen and (max-width: 667px){
+@media screen and (max-width: 420px){
 	.section-title{
 		font-size:34px;
 	}
 	.phone {
-		font-size: 40px;
+		font-size: 44px;
+	}
+	img.logoVertical{
+		display:block;
+	    width: 383px;
+	}	
+	img.logo{
+		display:none;
+	}
+}
+@media screen and (max-width: 375px){
+	.section-title{
+		font-size:34px;
+	}
+	.phone {
+		font-size: 38px;
 	}
 	img.logoVertical{
 		display:block;
@@ -1024,7 +1040,7 @@ form.news-letter .btn:hover{
 		display:none;
 	}
 }
-@media screen and (max-width: 568px){
+@media screen and (max-width: 320px){
 	.section-title{
 		font-size:29px;
 	}
