@@ -51,6 +51,27 @@ Tags: HTML, Template, Coming Soon, Kite
 
 /* 2 - Global Style
 ---------------------------------------------------------------------- */
+.cmsmasters_prev_arrow:before, .cmsmasters_next_arrow:before {
+    font-family: 'fontello';
+    text-align: center;
+    display: inline-block;
+    line-height: 1em;
+    width: 1em;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cmsmasters_theme_icon_slide_prev:before, .cmsmasters_prev_arrow:before {
+    content: '\e9d3';
+}
+
+.cmsmasters_theme_icon_slide_next:before, .cmsmasters_next_arrow:before {
+    content: '\e9d4';
+}
+
+
+
 .messagers {
 	 padding-bottom: 30px;
     margin: 0 !important;

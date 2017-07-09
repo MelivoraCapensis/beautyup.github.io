@@ -18,6 +18,8 @@
 
 	<!-- Custom Styles -->
 	<link href="assets/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/owl/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl/owl.theme.default.min.css">
 
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>
@@ -28,7 +30,7 @@
 
 
 	<!-- Preloader -->
-	<div id="preloader">
+	<div id="preloader">	
 		<div id="loader">
 			<div class="dot"></div>
 			<div class="dot"></div>
@@ -322,6 +324,33 @@
 	</section><!-- /#about -->
 	<!-- About Us Section End -->
 
+	
+	<!-- Brands Section -->
+	<section id="about" class="section-style no-parallax-bg" >
+		<div class="pattern height-resize"> 
+			<div class="container">
+				<h2 class="section-title">
+					Бренды, которыми я работаю
+				</h2><!-- /.Section-title  -->
+				<div class="owl-carousel">
+				  <div> <img src="images/atele_logo.PNG" alt="atelier paris" /> </div>
+				  <div> <img src="images/logo_cinecitta.jpg" alt="cinesitta" /> </div>
+				  <div> <img src="images/makeupforever.png" alt="makeup for ever" /> </div>
+				  <div> <img src="images/stargazer.png" alt="stargazer" /> </div>
+				  <div> <img src="images/maq_pro.jpg" alt="le maquillage professional" /> </div>
+				</div>
+					
+
+				<div class="next-section">
+					<a class="go-to-subscribe"><span></span></a>
+				</div><!-- /.next-section -->
+
+			</div><!-- /.container -->
+		</div><!-- /.pattern -->
+		
+		
+	</section><!-- /#about -->
+	<!-- Brands End -->
 
 
 	<!-- Subscribe Section -->
@@ -469,6 +498,8 @@
 		<script type="text/javascript" src="assets/js/jquery.parallax.js"></script>
 		<!-- Custom JavaScript Functions -->
 		<script type="text/javascript" src="assets/js/jquery.ajaxchimp.min.js"></script>
+		
+		<script src="assets/js/owl.carousel.min.js"></script>
 
 
 		<script type="text/javascript">
@@ -477,6 +508,19 @@
 					$("#page-top").parallax("50%", 0.2);
 					$("#subscribe").parallax("50%", 0.2);
 				})
+				
+				$(".owl-carousel").owlCarousel({
+					autoplay:true,
+					items:4,
+					singleItem : false,
+					slideSpeed : 1000, 
+					paginationSpeed : 1000, 
+					autoPlay : true, 
+					stopOnHover: true,
+					pagination : false,
+					navigation : true, 
+					navigationText : 	[ "<span class=\"cmsmasters_prev_arrow\"><span></span></span>", "<span class=\"cmsmasters_next_arrow\"><span></span></span>" ]
+				});
 			})
 		</script>
 
