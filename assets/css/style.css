@@ -69,7 +69,22 @@ Tags: HTML, Template, Coming Soon, Kite
 .cmsmasters_theme_icon_slide_next:before, .cmsmasters_next_arrow:before {
     content: '\e9d4';
 }
-
+.brandItem{
+	height: 180px;
+    line-height: 140px;
+}
+.brandItem img{
+	display: inline-block;
+    padding: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto !important;
+    vertical-align: middle;
+}
+div.pattern.height-resize.brands{
+	padding:0;
+}
 
 
 .messagers {

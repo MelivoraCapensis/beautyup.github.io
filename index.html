@@ -326,25 +326,16 @@
 
 	
 	<!-- Brands Section -->
-	<section id="about" class="section-style no-parallax-bg" >
-		<div class="pattern height-resize"> 
-			<div class="container">
-				<h2 class="section-title">
-					Бренды, которыми я работаю
-				</h2><!-- /.Section-title  -->
+	<section id="brands" class="section-style no-parallax-bg" >
+		<div class="height-resize brands"> 
+			<div class="container-fluid">
 				<div class="owl-carousel">
-				  <div> <img src="images/atele_logo.PNG" alt="atelier paris" /> </div>
-				  <div> <img src="images/logo_cinecitta.jpg" alt="cinesitta" /> </div>
-				  <div> <img src="images/makeupforever.png" alt="makeup for ever" /> </div>
-				  <div> <img src="images/stargazer.png" alt="stargazer" /> </div>
-				  <div> <img src="images/maq_pro.jpg" alt="le maquillage professional" /> </div>
+				  <div class="brandItem"> <img src="images/atele_logo.PNG" alt="atelier paris" /> </div>		  
+				  <div class="brandItem"> <img src="images/maq_pro.jpg" alt="le maquillage professional" /> </div>
+				  <div class="brandItem"> <img src="images/logo_cinecitta.jpg" alt="cinesitta" /> </div>
+				  <div class="brandItem"> <img src="images/makeupforever.png" alt="makeup for ever" /> </div>		
+				  <div class="brandItem"> <img src="images/stargazer.png" alt="stargazer" /> </div>
 				</div>
-					
-
-				<div class="next-section">
-					<a class="go-to-subscribe"><span></span></a>
-				</div><!-- /.next-section -->
-
 			</div><!-- /.container -->
 		</div><!-- /.pattern -->
 		
@@ -513,9 +504,10 @@
 					autoplay:true,
 					items:4,
 					singleItem : false,
-					slideSpeed : 1000, 
-					paginationSpeed : 1000, 
+					loop:true,
 					autoPlay : true, 
+					autoplaySpeed:1000,		
+					autoplayTimeout:2500,
 					stopOnHover: true,
 					pagination : false,
 					navigation : true, 
