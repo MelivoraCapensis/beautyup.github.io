@@ -20,7 +20,9 @@
 	<link href="assets/css/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/owl/owl.carousel.min.css">
 	<link rel="stylesheet" href="assets/css/owl/owl.theme.default.min.css">
-
+	<link rel="stylesheet" type="text/css" href="assets/css/elastic-grid-master/elastic_grid.min.css" />
+	
+	
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>
 	<![endif]-->
@@ -60,8 +62,9 @@
 		<nav class="collapse navbar-collapse">
 			<!-- Main navigation -->
 			<ul id="headernavigation" class="nav navbar-nav">
-				<li class="active"><a href="#page-top">Home</a></li>	
-				<li><a href="#about">О себе</a></li>						
+				<li class="active"><a href="#page-top">Главная</a></li>	
+				<li><a href="#about">О себе</a></li>	
+				<li><a href="#portfolio">Портфолио</a></li>				
 				<li><a href="#subscribe">Контакты</a></li>	
 			</ul> <!-- /.nav .navbar-nav -->
 		</nav> <!-- /.navbar-collapse  -->
@@ -165,7 +168,7 @@
 					</span>
 				</h3><!-- /.section-name -->
 				
-				<p class="section-description">
+				<p class="section-description" style="text-align: justify">
 					В своих трудах я реализовываюсь как творец, поскольку макияж для меня — это вид творчества. В каждую работу я стараюсь вложить частичку своей души.
 
 С 2015 года являюсь визажистом и предлагаю Вам свои услуги профессионального визажа в Запорожье. Все виды макияжа, коррекция и окрашивание бровей украсит Ваше лицо и придаст восхитительный образ на торжественное событие, свадьбу, праздник, деловую встречу, свидание, фотосессия, поездка на отдых и т.д.
@@ -324,6 +327,28 @@
 	</section><!-- /#about -->
 	<!-- About Us Section End -->
 
+		<!-- Portfolio Us Section -->
+	<section id="portfolio" class="section-style parallax-bg" >
+		<div class="pattern height-resize"> 
+			<div class="container-fluid">
+				<h3 class="section-name">
+					<span>
+						Портфолио
+					</span>
+				</h3><!-- /.section-name -->
+				
+				<div id="portfolio-grid"></div>
+				
+				<div class="next-section">
+					<a class="go-to-subscribe"><span></span></a>
+				</div><!-- /.next-section -->
+
+			</div><!-- /.container -->
+		</div><!-- /.pattern -->
+		
+		
+	</section><!-- /#portfolio -->
+	<!-- Portfolio Section End -->
 	
 	<!-- Brands Section -->
 	<section id="brands" class="section-style no-parallax-bg" >
@@ -481,6 +506,7 @@
 		<script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
 		<!-- Modernizr js -->
 		<script type="text/javascript" src="assets/js/modernizr-2.8.0.min.js"></script>
+		<script src="assets/js/modernizr.custom.js"></script>
 		<!-- Plugins -->
 		<script type="text/javascript" src="assets/js/plugins.js"></script>
 		<!-- Custom JavaScript Functions -->
@@ -491,7 +517,11 @@
 		<script type="text/javascript" src="assets/js/jquery.ajaxchimp.min.js"></script>
 		
 		<script src="assets/js/owl.carousel.min.js"></script>
-
+		<script src="assets/js/classie.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.elastislide.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.hoverdir.js"></script>
+		<script type="text/javascript" src="assets/js/elastic_grid.js"></script>
+		<script type="text/javascript" src="assets/js/portfolio.js"></script>
 
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
@@ -513,6 +543,8 @@
 					navigation : true, 
 					navigationText : 	[ "<span class=\"cmsmasters_prev_arrow\"><span></span></span>", "<span class=\"cmsmasters_next_arrow\"><span></span></span>" ]
 				});
+				
+			
 			})
 		</script>
 

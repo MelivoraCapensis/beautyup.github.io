@@ -117,6 +117,10 @@ div.pattern.height-resize.brands{
 	background-image: url(../../images/background/about-us.jpg);
     background-position: 50% 0px;
 }
+#portfolio{
+	background-image: url(../../images/background/cosmetics.jpg);
+    background-position: 50% 0px;
+}
 #subscribe{
 	background-image: url(../../images/background/newsletter.jpg);
     background-position: 50% 0px;
