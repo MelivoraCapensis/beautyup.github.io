@@ -107,7 +107,7 @@ jQuery(document).ready(function($) {
 
 	      /* Subscribe
     -------------------------------------------------------------------*/
-    $(".news-letter").ajaxChimp({
+    /*$(".news-letter").ajaxChimp({
         callback: mailchimpResponse,
         url: "http://jeweltheme.us10.list-manage.com/subscribe/post?u=a3e1b6603a9caac983abe3892&amp;id=257cf1a459" // Replace your mailchimp post url inside double quote "".  
     });
@@ -120,7 +120,7 @@ jQuery(document).ready(function($) {
         } else if(resp.result === 'error') {
             $('.alert-warning').html(resp.msg).fadeIn().delay(3000).fadeOut();
         }  
-    };
+    };*/
 
 
 
