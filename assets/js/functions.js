@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
 
 
 	/* Main Menu   
-	-------------------------------------------------------------------*/
+	-------------------------------------------------------------------
 	$('#main-menu #headernavigation').onePageNav({
 		currentClass: 'active',
 		changeHash: false,
@@ -47,7 +47,7 @@ jQuery(document).ready(function($) {
 		easing: 'swing'
 	});  
 
-	/* Main Menu End  
+	/* Main Menu End  */
 	-------------------------------------------------------------------*/
 
 
